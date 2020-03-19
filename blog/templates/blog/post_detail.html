@@ -8,7 +8,7 @@
                 {{ post.published_date }}
             </div>
         {% endif %}
-        <h2>{{ post.title}} <a href="{% url 'post_edit' pk=post.pk %}"><i class="fas fa-edit" style="color: #18BC9C;"></i></a></h2>
+        <h2>{{ post.title}} {% if user.is_authenticated %}<i class="fas fa-edit" style="color: #18BC9C;"></i></a>{% endif %}</h2>
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 {% endblock %}

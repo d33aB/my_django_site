@@ -11,6 +11,11 @@
 </head>
 <body>
 <div class="page-header">
+    {% if user.is_authenticated%}
+    <div class="top-menu-right">
+        <a href="{% url 'post_new' %}"><i class="fas fa-plus" style="color: #ffffff;"></i></a>
+    </div>
+    {% endif %}
     <h1><a href="{% url "post_list" %}">Just a blog</a></h1>
 </div>
 
