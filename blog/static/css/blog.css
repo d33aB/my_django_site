@@ -37,3 +37,12 @@ body{
     color: #18BC9C;
 }
 
+.post-form-blog textarea {
+    width: 100%;
+}
+
+.post-form-blog .btn-primary {
+    float: right;
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+}
