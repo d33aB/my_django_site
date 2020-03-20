@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
+
 # Create your models here.
 
 class Post(models.Model):
@@ -14,6 +15,6 @@ class Post(models.Model):
         self.published_date = timezone.now()
         self.save()
 
-    # create a string represesentation
+    # create a string representation
     def __str__(self):
         return self.title
