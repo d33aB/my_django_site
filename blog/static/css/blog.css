@@ -53,6 +53,7 @@ textarea {
     margin-right: 100px;
     padding-top: 5px;
 }
+
 #id_title {
     width:100%;
 }
@@ -98,4 +99,8 @@ fa, .fas {
     color: #ffffff;
     padding-left: 15px;
     padding-top: 15px;
+}
+
+.no-comment{
+    margin-top: 10px;
 }

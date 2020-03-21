@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'blog/base.html' %}
+
+{% block title %}Adding a Comment{% endblock %}
+
+{% block content %}
+    <h2>New comment</h2>
+    <form class="post-form-blog" method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" class="btn btn-primary">POST</button>
+    </form>
+{% endblock %}
