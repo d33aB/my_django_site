@@ -101,6 +101,10 @@ fa, .fas {
     padding-top: 15px;
 }
 
-.no-comment{
+.no-comment {
     margin-top: 10px;
+}
+
+.btn-danger {
+    margin-bottom: 10px;
 }
