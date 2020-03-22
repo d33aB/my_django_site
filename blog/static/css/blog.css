@@ -67,13 +67,18 @@ textarea {
     margin-top: 15px;
 }
 
-#id_password{
-    width: 20%;
+#id_password {
+    width: 30%;
     margin-left: 5px;
 }
 
-#id_username{
-    width: 20%;
+
+#id_username {
+    width: 30%;
+}
+
+#id_email {
+    width: 30%;
 }
 
 fa, .fas {
@@ -82,7 +87,7 @@ fa, .fas {
     color: #ffffff;
 }
 
-.login-container{
+.login-container {
     text-align: center;
     margin-top: 100px;
 }

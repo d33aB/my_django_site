@@ -3,6 +3,7 @@ astroid==2.3.3
 certifi==2019.11.28
 colorama==0.4.3
 Django==3.0.4
+django-crispy-forms==1.9.0
 django-polls==0.1
 isort==4.3.21
 lazy-object-proxy==1.4.3
