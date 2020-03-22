@@ -72,7 +72,6 @@ textarea {
     margin-left: 5px;
 }
 
-
 #id_username {
     width: 30%;
 }
@@ -118,4 +117,8 @@ fa, .fas {
 
 .approved-comments {
     color: #18BC9C;
+}
+
+.no-account {
+    margin-left: 200px;
 }
